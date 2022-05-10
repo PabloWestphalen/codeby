@@ -1,0 +1,11 @@
+{
+  "name": "codeby",
+  "version": "1.0.0",
+  "description": "Loja de trufas",
+  "main": "js/main.js",
+  "author": "Pablo Westphalen",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
