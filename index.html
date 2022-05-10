@@ -14,7 +14,7 @@
 		/>
 	</head>
 	<body>
-		<div class="screen screen-product-select container">
+		<div class="screen screen-product-select container hidden">
 			<header>
 				<h1>Nossas Trufas</h1>
 			</header>
@@ -104,13 +104,38 @@
 				<a class="btn-view-cart" href="#view-cart">🛒 Ver carrinho</a>
 			</div>
 		</nav>
-		<div class="screen screen-cart container hidden">
+		<div class="screen screen-cart container">
 			<header>
 				<a class="btn-return" href="#">🔙 Voltar</a>
 				<h1>Meu Carrinho</h1>
 			</header>
 			<main>
-				<div id="cart-product-list"></div>
+				<div id="cart-product-list">
+					<article data-product_id="16701615" class="product">
+						<header>
+							<img class="product-image" src="http://codeby.vteximg.com.br/arquivos/ids/159959-800-1029/truffon-meio-amargo.png?v=636930938547630000" alt="Fotografia do produto Trufa BENDITO CACAU 55% CACAU 30 G">
+						</header>
+						<main>
+							<h2>Trufa BENDITO CACAU 55% CACAU 30 G</h2>
+							<p class="from-price">R$3,03</p>
+							<div class="price-for">R$2,73</div>
+							<div class="quantity">Quantidade: 5</div>
+							<div class="subtotal">Subtotal: R$13,65</div>
+						</main>
+					</article>
+					<article data-product_id="16701612" class="product">
+						<header>
+							<img class="product-image" src="http://codeby.vteximg.com.br/arquivos/ids/159939-800-1029/trufa-morango-30g.png?v=636916431597070000" alt="Fotografia do produto TRUFA MORANGO">
+						</header>
+						<main>
+							<h2>TRUFA MORANGO</h2>
+							<p class="from-price">R$1,23</p>
+							<div class="price-for">R$1,11</div>
+							<div class="quantity">Quantidade: 6</div>
+							<div class="subtotal">Subtotal: R$6,66</div>
+						</main>
+					</article>
+				</div>
 				<div id="total-wrapper">
 					<h2>Total</h2>
 					<p class="cart-total"></p>
@@ -118,9 +143,9 @@
 				<p class="free-shipping-alert hidden">
 					Parabéns, sua compra tem frete grátis!
 				</p>
-				<hr />
+				<hr>
 				<p>
-					<input type="submit" value="Finalizar compra" />
+					<input type="submit" value="Finalizar compra">
 				</p>
 			</main>
 		</div>
