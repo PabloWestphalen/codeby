@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem 0;
+	font-family: "Poppins", Arial, serif;
+	background-color: #d1d8e5;
+	position: relative;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	border-radius: 1rem;
+	background-color: white;
+	box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 40%);
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+}
+
+.hidden {
+	display: none !important;
+}
